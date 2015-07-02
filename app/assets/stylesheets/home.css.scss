@@ -1,0 +1,18 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container-fluid{
+  background-color: rgb(0,200,135);
+// Footer------------------------------------------------------  
+}
+.footer{
+  height:100%;
+  background: -webkit-linear-gradient(left, rgb(250,200,61),rgb(230,42,21),rgb(230, 32, 126)); 
+}
+.footer img{
+  padding-left:1em;
+  padding-right:1em;
+}
+.footer p{
+  margin-left:2em;
+}

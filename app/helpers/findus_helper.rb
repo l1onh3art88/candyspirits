@@ -1,0 +1,2 @@
+module FindusHelper
+end

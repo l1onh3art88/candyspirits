@@ -1,0 +1,35 @@
+<div class = "container-fluid">   
+  <nav class="navbar navbar-default" role="navigation">
+  
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <%= link_to image_tag("Logo.png"),  root_path, :id => "logo" %>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+       <!-- cocktail dropdown menu -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cocktails <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="honeybee"><%= link_to "Honey Bee", honeybee_path %></li>
+            <li class="lemondrop"><%= link_to "Lemon Drop", lemondrop_path %></li>
+          </ul>
+        </li>
+        <!-- other nav items -->
+        <li class="recipes"> <%= link_to "Recipes", recipes_path %></li>
+        <li class="events"><%= link_to "Events & News", events_path %> </li>
+        <li class="meetcandy"><%=link_to "Meet Candy", meetcandy_path %> </li>
+        <li class="findus"><%= link_to "Find Us", findus_path %> </li>
+        <li class="contactus"><%= link_to "Contact Us", contactus_path %> </li>
+      </ul>
+     </div>   
+  </nav>
+</div>
