@@ -1,18 +1,86 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.container-fluid{
-  background-color: rgb(0,200,135);
-// Footer------------------------------------------------------  
+#homebackground{
+  background-image: image-url("bakcground.png");
+  background-size: 100% 32em;
+  background-position-y: -2em;
+  height:30em;
 }
+nav.navbar.navbar-default{
+  margin-bottom: 0px;
+}
+.container-fluid{
+  padding-right: 0px;
+  padding-left:0px;
+}
+//Footer-------------------------------------------------------------------
 .footer{
   height:100%;
   background: -webkit-linear-gradient(left, rgb(250,200,61),rgb(230,42,21),rgb(230, 32, 126)); 
 }
 .footer img{
-  padding-left:1em;
-  padding-right:1em;
+/*   padding-left:1em; */
+  padding-right:.5em;
 }
 .footer p{
   margin-left:2em;
 }
+#footerp2{
+  text-indent: 12em;
+  margin-bottom:1.5em
+/*   font-size: 13px; */
+}
+#footerp1{
+  display: inline-block;
+/*   font-size: 13px; */
+  padding-left: 4em;
+  margin-bottom: 0px;
+  margin-top:1.5em;
+}
+#footerp1, #footerp2{
+  font-size:13px;
+  color:white;
+  line-height: 70%;
+}
+#socialmedia{
+  display: inline-block;
+  position: relative;
+  top: .8em;
+}
+#facebooklogo{
+  padding-left: 2em;
+}
+// Ghost Box----------------------------------------------------------------------------------
+#signup{
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #e6207e;
+  border: 1px solid #e6207e;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 1000;
+  position: relative;
+  top: 12.35em;
+  right:20em;
+  transition-property: color, background-color;
+  transition-duration: .4s;
+  font-family: 'Roboto', sans-serif;
+}
+#signup:hover,
+#signup:active {
+  background-color: #e6207e;
+  color: #fff;
+}
+//Bottle Image-----------------------------------------------------
+#bottles{
+  width: 19%;
+  position: relative;
+  left: 34em;
+  bottom: 2em;
+  height: 450px;
+}
+
