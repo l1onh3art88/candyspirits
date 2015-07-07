@@ -1,11 +1,17 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+//background-------------------------------------------------------------------------
+
 #homebackground{
-  background-image: image-url("bakcground.png");
-  background-size: 100% 32em;
-  background-position-y: -2em;
-  height:30em;
+  background-image: url(<%=asset_data_uri'bakcground.png' %>);
+  background-size: 100% 27em;
+  background-position-y: 6em;
+  background-repeat: no-repeat;
+  overflow:hidden;
+}
+#home{
+  height:26em;
 }
 nav.navbar.navbar-default{
   margin-bottom: 0px;
@@ -64,7 +70,7 @@ nav.navbar.navbar-default{
   background-color: rgba(255, 255, 255, 0);
   z-index: 1000;
   position: relative;
-  top: 12.35em;
+  top: 9em;
   right:20em;
   transition-property: color, background-color;
   transition-duration: .4s;
@@ -77,10 +83,10 @@ nav.navbar.navbar-default{
 }
 //Bottle Image-----------------------------------------------------
 #bottles{
-  width: 19%;
+  width: 22%;
   position: relative;
-  left: 34em;
+  left: 28em;
   bottom: 2em;
-  height: 450px;
+  height: 430px;
 }
 

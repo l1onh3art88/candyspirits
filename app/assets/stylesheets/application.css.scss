@@ -25,6 +25,9 @@ a#logo{
 #logo img{
   width: 45%;
 }
+/*
+Hover yellow on links and border
+*/
 .navbar-default .navbar-nav > li > a:hover{
   color: #fac83d !important;
 }
@@ -52,6 +55,9 @@ nav{
   height: 75px;
   background-color: #FFFFFF;
   box-shadow: 0px 10px 100px rgba(37, 35, 35, 0.41);
+}
+.navbar-default{
+  background-color:rgba(255,255,255,.37);
 }
 
 /* .currentLink:target{

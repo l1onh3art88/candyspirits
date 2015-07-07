@@ -16,7 +16,7 @@
 //= require_tree .
 //= require jquery
 //= require bootstrap-sprockets
-$(document).on('page:load',(function(){
+$(document).on('page:load',function(){
  $(".dropdown").hover(            
   function() {
       $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
@@ -28,7 +28,4 @@ $(document).on('page:load',(function(){
       $(this).toggleClass('open');
 //       $('b', this).toggleClass("caret caret-up");                
  });
-  
-
-  
 });

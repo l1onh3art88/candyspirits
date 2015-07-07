@@ -1,0 +1,70 @@
+// Place all the styles related to the contactus controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#contactusid{
+  height:26em;
+}
+#contactus{
+  width: 70em;
+  height: 14em;
+  position: relative;
+  text-align: left;
+  top: 9em;
+  left:8em;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px;
+  background-color:rgba(255,255,255,.69);
+}
+// Contact Form---------------------------------------------------------
+#contacth{
+  width: 270px;
+  margin-left: .5em;
+  font-size: 3em;
+  position:relative;
+  bottom: .5em;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 300;
+}
+#contactp{
+  width:250px;
+  margin-left:1em;
+  margin-bottom: -1em;
+  position:relative;
+  bottom: 2em;
+  font-family: 'Roboto', sans-serif;
+}
+#contacth, #contactp{
+  color:#e6207e;
+}
+#contactsig{
+  display: inline-block;
+  width: 6em;
+  margin-right: 10em;
+  position: relative;
+  bottom: 6.7em;
+  left: 5.5em;
+}
+#contactbot{
+  position: relative;
+  bottom: 11em;
+  width: 10em;
+  height:13em;
+  left:3em;
+}
+
+#contactus form{
+  display: inline-block;
+  width: 40em;
+  position: relative;
+  bottom: 12em;
+  left:3em;
+  line-height:.5;
+}
+//Background----------------------------------------
+#contactusbackground{
+  overflow-y:hidden;
+  background-image: url(<%=asset_data_uri 'Contact Us Background Img.png'%>);
+  background-size: 70em;
+  background-position: 40% 10%;
+  background-repeat: no-repeat;
+}
