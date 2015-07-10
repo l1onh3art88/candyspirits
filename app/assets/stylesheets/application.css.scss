@@ -46,9 +46,18 @@ ul > li > a.dropdown-toggle,li.recipes > a,li.events > a,li.meetcandy > a,li.fin
 ul.dropdown-menu{
   margin-top: 30px !important;
 }
+ul.dropdown-menu > li > a:hover{
+  color: #fac83d !important;
+  background-color:rgba(255,255,255,0) !important;
+
+}
 a{
   padding-top: 1.8em !important;
   color: rgb(240, 117, 167) !important;
+}
+// Navbar-------------------------------------------------------
+#bs-example-navbar-collapse-1{
+  height: 75px !important;
 }
 nav{
   margin-top:2em;

@@ -1,0 +1,88 @@
+// Place all the styles related to the findus controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#findusbackground{
+  overflow:hidden;
+}
+//Find Stores Column----------------------------------------------------------------
+#findastore{
+  overflow-y:scroll;
+  width: 25em;
+  height: 100%;
+  position: relative;
+  bottom: 6em;
+  left: 63em;
+  background-color:white;
+  box-shadow: 10px 10px 85px rgba(128,128,128,.4);
+}
+#findastore h1{
+  color: white;
+  background-color: #e6207e;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom:0px;
+}
+#findastore #stores div{
+  padding-top:.5em;
+  padding-bottom:1em;
+  border-bottom: 2px solid rgba(128,128,128,.2);
+  width: 90%;
+  border-right: 2px solid rgba(128,128,128,.2);
+  padding-left: 20px;
+}
+.StoreName{
+  color:#e6207e;
+  font-weight:bold;
+  margin-bottom:-2px;
+  text-decoration:underline;
+  font-size:11px;
+  font-family: 'Roboto',sans-serif;
+}
+.StoreAddress,.StoreNumber{
+  color:black !important;
+  font-size:9px !important;
+  margin-bottom:-2px;
+}
+//Background-------------------------------------------------------------------------------
+#findus{
+  background-image: url(<%= asset_data_uri 'Find Us Background Img.png'%>);
+  background-size:45%;
+  background-position: 30% 80%;
+  background-repeat:no-repeat;
+  height:30em;
+  width:100%;
+}
+// Bottle--------------------------------------------------------
+#findus #bottle{
+  position: relative;
+  width:10em;
+  height:20em;
+  bottom:27em;
+  left:52em;
+}
+//Send Request Text and Button-------------------------------------------------
+#findus h3{
+  color: #e6207e;
+  line-height: .1;
+  font-size: 22px;
+  text-indent:2em;
+}
+#findus p{
+  color: #e6207e;
+}
+#sendrequest{
+  position: relative;
+  bottom:32em;
+  width:15em;
+  left:40%;
+}
+#sendrequest button{
+  background-color: white;
+  color: #e6207e;
+}
+#reversearrow{
+  transform: rotate(180deg);
+}

@@ -1,13 +1,33 @@
 // Place all the styles related to the meetcandy controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+//Background---------------------------------------------------------------
+#meetcandybackground{
+  background-color:green;
+  border-bottom:.9em solid rgba(255,255,255,0)
+
+}
+#meetcandy{
+  height:30em
+}
+//Candy Blurb-----------------------------------------------------------------
 #candyblurb{
-  width: 43em;
-  margin: auto;
+  width: 42em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 40em;
+  margin-top: -.8em;
 }
 #candyblurbp{
   color:#e6207e;
+  font-size:12px;
 }
 #candyheader{
   color:#e6207e;
+  font-size:60px;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 300;
+  padding-top:.3em;
 }

@@ -1,2 +1,77 @@
-<%= render "shared/navbar" %>
-<%= render "shared/footer" %>
+<div class = "container-fluid" id = "findusbackground">
+  <%= render "shared/navbar" %>
+  <div id = "findus" class = "container-fluid">
+    <h3> Help us COLOR our map! </h3>
+    <p> Request Candy's Signature Cocktails in your home state!</p>
+    <br />
+    <div id = "findastore">
+        <div id = "stores">
+         <h1> FIND A STORE </h1>
+
+          <div>
+            <p class ="StoreName">SPEC'S OF PRESTON CENTER </p>
+            <p class = "StoreAddress">8123 Preston Road, Dallas, Texas 75255</p>
+            <p class = "StoreNumber">214-361-6697</p>
+          </div>
+          <div>
+            <p class ="StoreName">SPEC'S MARSH LANE</p>
+            <p class = "StoreAddress">9972 Marsh Lane, Dallas, Texas 75220</p>
+            <p class = "StoreNumber">214-353-2701</p>
+          </div>
+          <div>
+            <p class ="StoreName">SPEC'S ADDISON</p>
+            <p class = "StoreAddress">15055 Inwood Road, Addison, Texas 75001</p>
+            <p class = "StoreNumber">972-239-5891</p>
+          </div>
+          <div>
+            <p class ="StoreName">SPEC'S NORTHWEST HIGHWAY</p>
+            <p class = "StoreAddress">1613 West Northwest Highway, Dallas, Texas 75220</p>
+            <p class = "StoreNumber">972-506-8193</p>
+          </div>
+          <div>
+            <p class ="StoreName">SPEC'S ON COIT ROAD </p>
+            <p class = "StoreAddress">1453 Coit Road, Plano, Texas 75075</p>
+            <p class = "StoreNumber">972-867-2821</p>
+          </div>
+          <div>
+            <p class ="StoreName">SPEC'S ON HEBRON </p>
+            <p class = "StoreAddress">2401 Parker Road, Hebron, Texas 75010</p>
+            <p class = "StoreNumber">972-395-2522</p>
+          </div>
+          <div>
+            <p class ="StoreName">SPEC'S EAST PLANO </p>
+            <p class = "StoreAddress">3404 N Central Expressway, Plano, Texas 75074</p>
+            <p class = "StoreNumber">972-423-6688</p>
+          </div>
+          <div>
+            <p class ="StoreName">SPEC'S THE COLONY</p>
+            <p class = "StoreAddress">4901 SH 121, The Colony, Texas 75056</p>
+            <p class = "StoreNumber">214-469-2113</p>
+          </div>
+          <div>
+            <p class ="StoreName">SPEC'S DALWORTHINGTON</p>
+            <p class = "StoreAddress">3200 West Pioneer Parkway, Dalworthington Gardens,Texas 76013</p>
+            <p class = "StoreNumber">817-542-0200</p>
+          </div>
+          <div>
+            <p class ="StoreName">SPEC'S WESTLAKE</p>
+            <p class = "StoreAddress">2341 Highway 377, Westlake, Texas 76262</p>
+            <p class = "StoreNumber">817-490-9072</p>
+          </div>
+          <div>
+            <p class ="StoreName">LOWRY CROSSING</p>
+            <p class = "StoreAddress">4100 E University Dr, Lowry Crossing, Dallas, Texas 75069</p>
+<!--             <p class = "StoreNumber">214-361-6697</p> -->
+          </div>
+          
+        </div>
+    </div>
+    <div id="sendrequest">
+    <%= image_tag("Find Us Arrow.png") %><button type = "button">SEND REQUEST</button><%= image_tag("Find Us Arrow.png", :id => "reversearrow") %>
+    </div>
+    <%= image_tag("bottle.png", :id => "bottle") %>
+
+  </div>
+  
+  <%= render "shared/footer" %>
+</div>
