@@ -28,4 +28,17 @@ $(document).on('page:load',function(){
       $(this).toggleClass('open');
 //       $('b', this).toggleClass("caret caret-up");                
  });
+  $("#eventsnews").click(function(){
+    $("#eventsnewspage").css("display", "block");
+    $("#eventsnews").addClass("selected");
+    $("#eventsgallery").removeClass("selected");
+    $("#eventsgallerypage").css("display", "none");    
+  });
+  $("#eventsgallery").click(function(){
+    $("#eventsnewspage").css("display","none");
+    $("#eventsgallerypage").css("display", "block");
+    $("#eventsgallery").addClass("selected");
+    $("#eventsnews").removeClass("selected");
+
+  });
 });

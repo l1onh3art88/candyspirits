@@ -15,60 +15,60 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import url(http://fonts.googleapis.com/css?family=Roboto);
-
-a#logo{
-  position: relative;
-  left: 13em;
-  top: -2em;
-  padding-top: none;
-}
-#logo img{
+@media (min-width:1200px) {
+  a#logo{
+    position: relative;
+    left: 13em;
+    top: -2em;
+    padding-top: none;
+  }
+  #logo img{
   width: 45%;
-}
-/*
-Hover yellow on links and border
-*/
-.navbar-default .navbar-nav > li > a:hover{
+  }
+  /*
+  Hover yellow on links and border
+  */
+  .navbar-default .navbar-nav > li > a:hover{
   color: #fac83d !important;
-}
-.open > a:hover, .open >a:focus, .open >a{
+  }
+  .open > a:hover, .open >a:focus, .open >a{
   background-color:rgba(255,255,255,0) !important;
   border-right: solid 1px rgba(230, 32, 126, 0.18) !important;
 
-}
-ul > li > a.dropdown-toggle,li.recipes > a,li.events > a,li.meetcandy > a,li.findus >a{
+  }
+  ul > li > a.dropdown-toggle,li.recipes > a,li.events > a,li.meetcandy > a,li.findus >a{
   border-right: solid 1px rgba(230, 32, 126, 0.18);
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   position: relative;
   top: 25px;
-}
-ul.dropdown-menu{
+  }
+  ul.dropdown-menu{
   margin-top: 30px !important;
-}
-ul.dropdown-menu > li > a:hover{
+  }
+  ul.dropdown-menu > li > a:hover{
   color: #fac83d !important;
   background-color:rgba(255,255,255,0) !important;
 
-}
-a{
+  }
+  a{
   padding-top: 1.8em !important;
   color: rgb(240, 117, 167) !important;
-}
-// Navbar-------------------------------------------------------
-#bs-example-navbar-collapse-1{
+  }
+  // Navbar-------------------------------------------------------
+  #bs-example-navbar-collapse-1{
   height: 75px !important;
-}
-nav{
+  }
+  nav{
   margin-top:2em;
   height: 75px;
   background-color: #FFFFFF;
   box-shadow: 0px 10px 100px rgba(37, 35, 35, 0.41);
-}
-.navbar-default{
+  }
+  .navbar-default{
   background-color:rgba(255,255,255,.37);
+  }
 }
-
 /* .currentLink:target{
   background-color: #DADADA;
 }
