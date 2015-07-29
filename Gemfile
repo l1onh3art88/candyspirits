@@ -8,7 +8,10 @@ group :development do
   gem 'sqlite3'
   gem "better_errors"
 end
-
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
+end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
