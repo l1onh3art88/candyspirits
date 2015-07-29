@@ -20,11 +20,7 @@ module CandySpirits
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
     config.middleware.use Rack::Deflater
-    config.assets.image_optim ={
-      svgo: false,
-      pngout: false,
-      nice: 20
-      }
+   
    
   end
 end
