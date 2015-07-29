@@ -27,7 +27,6 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
-    addressable (2.3.8)
     arel (5.0.1.20140414130214)
     autoprefixer-rails (5.2.1.1)
       execjs
@@ -48,33 +47,12 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.1.1)
-    command-builder (0.3.2)
-      pipe-run (>= 0.2.1)
-    dragonfly (1.0.10)
-      addressable (~> 2.3)
-      multi_json (~> 1.0)
-      rack (>= 1.3.0)
     erubis (2.7.0)
     execjs (2.5.2)
-    exifr (1.2.3)
-    fspath (2.1.1)
-    hash-utils (2.2.0)
-      ruby-version (>= 0.4.0)
     heroku-deflater (0.5.3)
       rack (>= 1.4.5)
     hike (1.2.3)
     i18n (0.7.0)
-    image_optim (0.21.0)
-      exifr (~> 1.2, >= 1.2.2)
-      fspath (~> 2.1)
-      image_size (~> 1.3)
-      in_threads (~> 1.3)
-      progress (~> 3.0, >= 3.0.1)
-    image_optim_pack (0.2.1.20150702)
-      fspath (~> 2.1)
-      image_optim (~> 0.19)
-    image_size (1.4.1)
-    in_threads (1.3.1)
     jbuilder (2.3.1)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
@@ -88,13 +66,8 @@ GEM
     mime-types (1.25.1)
     minitest (5.7.0)
     multi_json (1.11.2)
-    optipng (0.2.1)
-      command-builder (>= 0.2.0)
-      unix-whereis (>= 0.1.0)
     pg (0.18.2)
-    pipe-run (0.3.0)
     polyglot (0.3.5)
-    progress (3.1.0)
     rack (1.5.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -121,7 +94,6 @@ GEM
     rake (10.4.2)
     rdoc (4.2.0)
       json (~> 1.4)
-    ruby-version (0.4.3)
     sass (3.2.19)
     sass-rails (4.0.5)
       railties (>= 4.0.0, < 5.0)
@@ -155,9 +127,6 @@ GEM
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    unix-whereis (0.1.1)
-      command-builder (>= 0.2.0)
-      hash-utils (>= 0.18.0)
 
 PLATFORMS
   ruby
@@ -166,13 +135,9 @@ DEPENDENCIES
   better_errors
   bootstrap-sass (~> 3.3.5)
   coffee-rails (~> 4.0.0)
-  dragonfly
   heroku-deflater
-  image_optim
-  image_optim_pack
   jbuilder (~> 2.0)
   jquery-rails
-  optipng
   pg
   rails (= 4.1.0)
   rails_12factor
