@@ -1,3 +1,58 @@
 // Place all the styles related to the recipes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#recipespage{
+  height: 30em;
+}
+//Recipe TextBox Positioning-----------------------------------------------------------
+
+#recipesText{
+  margin-top: 7em;
+  margin-left: 15em;
+  width: 30em;
+  text-align: right;
+}
+#recipespage h1, #recipespage p{
+  color: #e6207e;
+}
+#recipespage h1{
+  font-size: 60px;
+  font-family: "Raleway",sans-serif;
+}
+#recipespage p{
+  font-size:18px;
+}
+#lemonHoney{
+  #margin-top:-1em;
+}
+//The Yellow Lemon drop in the recipes paragaraph
+#lemonHoney > #lemon{
+  color: yellow;
+  font-size: 25px;
+  display:inline-block;
+}
+// The orange honey bee in the recipes paragraph
+#lemonHoney > #honey {
+  color: orange;
+  display: inline-block;
+  font-size:25px;
+}
+
+// CAROUSEL-----------------------------------------
+
+#imageGallery{
+  height: 20em;
+  width: 40em;
+  position: relative;
+  bottom: 20em;
+  left: 22em;
+}
+#myCarousel{
+  height: inherit;
+  overflow: hidden;
+  position: inherit;
+}
+ #myCarousel img{
+   width: 25%;
+   display: inline-block;
+ }
