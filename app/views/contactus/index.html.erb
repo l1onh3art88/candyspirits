@@ -4,7 +4,7 @@
     <div id ="contactus">
       <h3 id ="contacth">Contact Us</h3>
       <p id ="contactp"> Hi! Please contact us so we can send you invitations to our events and tastings. It's a pleasure to meet you! <br>Much love.</p>
-      <%= image_tag("Contact Us Signature.png", :id =>"contactsig") %>
+      <%= image_tag("Contact-Us-Signature-compressor.png", :id =>"contactsig") %>
       <%= form_tag do %>
           <%= text_field_tag('name', nil, class: 'form-control', placeholder: 'NAME') %>
       <br>
@@ -12,7 +12,7 @@
       <br>
       <%= text_area_tag('comments',nil,class:'form-control',placeholder:'COMMENTS',size:'15x4') %>
       <% end %>
-      <%= image_tag("Contact Us Bottles.png", :id=>"contactbot") %>
+      <%= image_tag("Contact-Us-Bottles-compressor.png", :id=>"contactbot") %>
     </div>
   </div>
   <%= render "shared/footer" %>
