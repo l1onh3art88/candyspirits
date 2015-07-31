@@ -41,4 +41,12 @@ $(document).on('page:load',function(){
     $("#eventsnews").removeClass("selected");
 
   });
+  
+  $(".right carousel-control").on("click",function(){
+    $("#myCarousel").carousel('next');
+  });
+  $(".left carousel-control").on("click",function(){
+    $("#myCarousel").carousel('prev');
+  });
+  
 });
