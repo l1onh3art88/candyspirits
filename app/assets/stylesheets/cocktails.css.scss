@@ -45,7 +45,8 @@
 //HoneyBee Page 2-------------------------------------------------------------------------------------------------
 
 #honeybee_page2{
-  height:38.5em;
+  height:43em;
+  background-color:orange;
 }
 #honeybee_page2 h1, #honeybee_page2 h2, #honeybee_page2 h3, #honeybee_page2 p{
   text-align: left;
@@ -57,7 +58,7 @@
   top: 3em;
   left: 8em;  
 }
-#honeybee_page2 p{
+#hbeeP{
   font-size:18px;
   font-family: "Raleway", sans-serif;  
   position: relative;
@@ -82,12 +83,84 @@
   top: 2.95em;
   font-style: italic;
 }
-  
+// LemonDrop Page 1-----------------------------------------------------------
+#lemondrop_page1{
+  height: 35em;
+}
+#lemondrop_page1_text{
+  position:relative;
+  left: 35em;
+}
+#lemondrop_page1 h1{ 
+  font-family: "Raleway",sans-serif;
+  font-size: 60px;
+  color: #F17BAB;
+  position: relative;
+  top: 1em;
+  right: 7.8em;
+  padding-bottom: .5em;
+}
+#lemondrop_page1 h2{
+  font-size: 45px;
+  font-family: "Raleway",sans-serif;
+  color: #F17BAB;
+  }
+#lemondrop_page1 p{
+  width: 30em;
+  color: #F17BAB;
+}
+#lemondrop_page1 h3{
+  font-size: 40px;
+  color: #FFD900;
+}
+//LemonDrop Page2--------------------------------------------------------------
+#lemondrop_page2 {
+  height:43em;
+  background-color:pink;
+}
+#lemondrop_page2 h1, #lemondrop_page2 h2, #lemondrop_page2 h3, #lemondrop_page2 p{
+  text-align: left;
+}
+#lemondrop_page2 h1{
+  font-size:40px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  top: 3em;
+  left: 8em;  
+}
+#ldropP{
+  font-size:18px;
+  font-family: "Raleway", sans-serif;  
+  position: relative;
+  width: 30em;
+  top: 6em;
+  left: 14.6em;
+  font-size: 22px;
+}
+#lemondrop_page2 h2{
+  position: relative;
+  top: 6em;
+  left: 12.8em;
+  font-style: italic;
+  font-size:25px;
+}
+#lemondrop_page2 h3{
+  font-size:30px;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  left: 20.5em;
+  top: 2.95em;
+  font-style: italic;
+}
+
 // Footer Cocktails--------------------------------------------------------------------------------------------
 //Footer-------------------------------------------------------------------
 .footerCocktail{
   height:64.5px;
   background-color: rgba(0,0,0,0);
+  margin-top: 10em;
+  margin-left: 5em;
 }
 .footer img{
 /*   padding-left:1em; */
