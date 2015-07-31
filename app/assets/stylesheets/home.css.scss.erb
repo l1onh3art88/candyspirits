@@ -3,22 +3,58 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 //background-------------------------------------------------------------------------
 
-#homebackground{
-  background-image: url(<%=asset_data_uri'bakcground.png' %>);
-  background-size: 100% 30em;
-  background-position-y: 6em;
-  background-repeat: no-repeat;
-  overflow:hidden;
-}
 #home{
+background-image: url(<%=asset_data_uri'backgroundimgmerged.png' %>);
+  background-size: cover;
+  background-position-y: -12em;
+  background-repeat: no-repeat;
   height:30em;
+
 }
+
 nav.navbar.navbar-default{
   margin-bottom: 0px;
 }
 .container-fluid{
   padding-right: 0px;
   padding-left:0px;
+}
+#hometext{
+  max-width:50em;
+  margin: auto;
+  text-align: center;
+  padding-top: 8em;
+  padding-right:10em;
+}
+#hometext h1{
+  font-size:150px;
+  margin:0;
+  font-family: "roboto",sans-serif;
+  color: #EE4F92;
+  font-weight: 100;
+  margin-bottom:-30px;
+}
+#hometext h2{
+  margin:0;
+  color: #EE4F92;
+}
+#hometext h3{
+  display: inline-block;
+  margin:0;
+}
+
+#lemonH{
+  color: #FBEC47;
+}
+#honeyH{
+  color: orange;
+}
+#hometext h4{
+  margin:0;
+  color: #EE4F92;
+}
+#hometext p{
+  color:#EE4F92;
 }
 //Footer-------------------------------------------------------------------
 .footer{
@@ -69,9 +105,6 @@ nav.navbar.navbar-default{
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0);
   z-index: 1000;
-  position: relative;
-  top: 12em;
-  right:20em;
   transition-property: color, background-color;
   transition-duration: .4s;
   font-family: 'Roboto', sans-serif;
@@ -83,10 +116,9 @@ nav.navbar.navbar-default{
 }
 //Bottle Image-----------------------------------------------------
 #bottles{
-  width: 22%;
-  position: relative;
-  left: 33em;
-  bottom: 2em;
-  height: 430px;
+  width: 19%;
+  height: 400px;
+  margin-top: -31em;
+  margin-left:67em;
 }
 
