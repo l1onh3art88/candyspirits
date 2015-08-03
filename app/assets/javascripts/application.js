@@ -18,7 +18,7 @@
 //= require bootstrap-sprockets
 //= require jquery.turbolinks
 
-$(document).on('page:load',function(){
+$(document).on('ready',function(){
  var mq = window.matchMedia( "(min-width: 320, max-width: 568)" );
   if (mq.matches){
     $(".dropdown").on("click", function() {
@@ -31,8 +31,6 @@ $(document).on('page:load',function(){
       $(this).toggleClass('open');
 
     });
-     var hoverOrClick = function () {
-
   }
    $("button.navbar-toggle").click(function(){
       $("#overlay").toggle();
@@ -66,13 +64,6 @@ $(document).on('page:load',function(){
     $("#eventsgallery").addClass("selected");
     $("#eventsnews").removeClass("selected");
 
-  });
-  
-  $(".right carousel-control").on("click",function(){
-    $("#myCarousel").carousel('next');
-  });
-  $(".left carousel-control").on("click",function(){
-    $("#myCarousel").carousel('prev');
   });
   
 });
