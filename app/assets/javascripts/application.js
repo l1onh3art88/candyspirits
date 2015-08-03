@@ -14,7 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-//= require jquery
+//= require jquery.js
 //= require bootstrap-sprockets
 //= require jquery.turbolinks
 
@@ -31,7 +31,8 @@ $(document).on('page:load',function(){
       $(this).toggleClass('open');
 
     });
-     
+     var hoverOrClick = function () {
+
   }
    $("button.navbar-toggle").click(function(){
       $("#overlay").toggle();
