@@ -83,6 +83,7 @@
   top: 2.95em;
   font-style: italic;
 }
+
 // LemonDrop Page 1-----------------------------------------------------------
 #lemondrop_page1{
   height: 35em;
@@ -194,3 +195,43 @@
 #facebooklogo{
   padding-left: 2em;
 }
+
+//iPhone 5 and iPhone5s HoneyBee-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #honeybee_page1 h1, #honeybee_page1 h2, #honeybee_page1 h3, #honeybee_page1 p{
+      padding-left:1em;
+      position: initial;
+    }
+    #honeybee_page1 h1,#honeybee_page1 h2{
+      font-size:30px;
+    }
+    #honeybee_page1 p{
+      width: 18em;
+      font-size:15px;
+    }
+    //Honeybee Page 2---------------------------------------------------------------------
+    #honeybee_page2 {
+      height: 44em;
+    }
+    #honeybee_page2 h1, #honeybee_page2 h2, #honeybee_page2 h3, #honeybee_page2 p{
+      text-align: center;
+      position: initial;
+    }
+    #honeybee_page2 h1{
+      font-size: 40px;
+    }
+    #honeybee_page2 h3{
+      display: block;
+    }
+    #hbeeP{
+      width: 18em;
+      font-size: 17px;
+    }
+    .footerCocktail{
+      margin-left:0px;
+      margin-top:-1em;
+    }
+  }
