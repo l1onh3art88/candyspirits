@@ -28,6 +28,9 @@ $(document).on('page:load',function(){
       $(this).toggleClass('open');
 //       $('b', this).toggleClass("caret caret-up");                
  });
+  $("button.navbar-toggle").click(function(){
+    $("#overlay").css("display", "block");
+  });
   $("#eventsnews").click(function(){
     $("#eventsnewspage").css("display", "block");
     $("#eventsnews").addClass("selected");
