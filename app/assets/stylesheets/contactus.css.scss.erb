@@ -69,3 +69,32 @@ background-image: url(<%=asset_data_uri 'Contact-Us-Background-Img-compressor.pn
   background-position: 40% 10%;
   background-repeat: no-repeat;
 }
+
+/* iPhone 5 and 5s Contact us page */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  #contactus{
+    width: 100%;
+    height: 390px;
+    position: initial;
+  }
+  #contacth, #contactp, #contactus form, #contactsig{
+    position: initial;
+  }
+  #contactsig{
+    width: 30%;
+    margin-left: 5em;
+  }
+  #contactus form{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    width: 100%;
+  }
+  #contactbot{
+    display: none;
+  }
+}

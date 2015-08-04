@@ -4,6 +4,11 @@
     <h3> Help us COLOR our map! </h3>
     <p> Request Candy's Signature Cocktails in your home state!</p>
     <br />
+    <div id="sendrequest">
+      <%= image_tag("Find-Us-Arrow-compressor.png") %><button type = "button">SEND REQUEST</button><%= image_tag("Find-Us-Arrow-compressor.png", :id => "reversearrow") %>
+      </div>
+      <%= image_tag("bottle-compressor.png", :id => "bottle") %>
+    </div>
     <div id = "findastore">
         <div id = "stores">
          <h1> FIND A STORE </h1>
@@ -66,12 +71,7 @@
           
         </div>
     </div>
-    <div id="sendrequest">
-      <%= image_tag("Find-Us-Arrow-compressor.png") %><button type = "button">SEND REQUEST</button><%= image_tag("Find-Us-Arrow.png-compressor", :id => "reversearrow") %>
-    </div>
-    <%= image_tag("bottle-compressor.png", :id => "bottle") %>
 
-  </div>
   
   <%= render "shared/footer" %>
 </div>

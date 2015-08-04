@@ -59,3 +59,40 @@ background-image: url(<%= asset_data_uri "News_Events_Gallery-background-img-com
   height:80%;
   margin-left:5em;
 }
+
+/* Iphone 5 and 5s ---------------------------------------------------------------------*/
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  #events{
+    height: 38em;
+    background: none;
+
+  }
+  #eventstab{
+    width:100%;
+    height: 100%;
+    background-color: white;
+    margin-left: 0px;
+  }
+  #eventsnews, #eventsgallery{
+    position: initial;
+    width: 100%;
+  }
+  #eventsnewspage{
+  height: 30em;
+  }
+  #eventsgallerypage{
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 100%;
+  }
+  #galleryimage{
+    width: 100%;
+    height: 50%;
+    margin-top: .5em;
+    margin-left: 0px;
+  }
+}

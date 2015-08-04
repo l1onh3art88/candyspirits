@@ -18,7 +18,7 @@
 //= require bootstrap-sprockets
 //= require jquery.turbolinks
 
-$(document).on('ready',function(){
+$(document).on('page:load',function(){
  var mq = window.matchMedia( "(min-width: 320, max-width: 568)" );
   if (mq.matches){
     $(".dropdown").on("click", function() {

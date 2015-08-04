@@ -31,3 +31,23 @@
   font-weight: 300;
   padding-top:.3em;
 }
+/* iPhone 5 and 5s Meetcandy */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #meetcandybackground{
+      border-bottom: 0px;
+      background: none;
+    }
+    #meetcandy{
+      height: 100%;
+    }
+    #candyblurb{
+      margin-left:0px;
+      width: 100%;
+      overflow: auto;
+      padding-left: 2em; 
+      padding-right: 2em;
+    }
+  }

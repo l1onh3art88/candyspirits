@@ -215,6 +215,7 @@
     //Honeybee Page 2---------------------------------------------------------------------
     #honeybee_page2 {
       height: 44em;
+      overflow:hidden;
     }
     #honeybee_page2 h1, #honeybee_page2 h2, #honeybee_page2 h3, #honeybee_page2 p{
       text-align: center;
@@ -233,5 +234,68 @@
     .footerCocktail{
       margin-left:0px;
       margin-top:-1em;
+      height:100%;
+      
+    }
+   
+    /* Iphone 5 and 5s Lemon Drop Page 1 -------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    #lemondrop_page1_text{
+      margin-top: -3em;
+      width: 20em;
+      margin-left: 1.5em;
+      text-align: justify;
+      position: initial;
+    }
+    #lemondrop_page1 h1{
+      position: initial;
+      font-size:40px;
+      margin-top: 1.5em;
+      text-indent: -10px;
+      text-align: left;
+      padding-bottom: 0px;
+    }
+    #lemondrop_page1 h2{
+      font-size: 27px;;
+      margin-top: 0px;
+      text-align: left;
+    }
+    #lemondrop_page1 p{
+      width: inherit;
+    }
+    #lemondrop_page1 h3{
+      text-align: left;
+    }
+    /* LemonDrop Page 2 iPhone 5 and 5s */
+    #lemondrop_page2{
+      height: 48em;
+      overflow:hidden;
+    }
+    #lemondrop_page2 h1{
+      font-size: 30px;
+      position: initial;
+      float:left;
+      text-align: center;
+    }
+    #ldropP{
+      text-align: left;
+      position: initial;
+      font-size: 17px;
+      padding-left: 2em;
+      padding-right: 1em;
+      width: 100%
+    }
+    #lemondrop_page2 h2{
+      position: initial;
+      text-align: center;
+    }
+    #lemondrop_page2 h3{
+      position: initial;
+      display: block;
+      font-size: 30px;
+      text-align:center;
+    }
+    #lemondrop_page2 > .footerCocktail{
+      padding-left: 1em;
     }
   }
+
