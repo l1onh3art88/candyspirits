@@ -32,10 +32,10 @@ ready = function(){
 //     });
 //   }
    $("button.navbar-toggle").click(function(){
-      $("#overlay").toggle();
-     });
+     $("#overlay").toggle();
+   });
     $("#overlay").click(function(){
-      $("#overlay").css("display", "none");
+      $("#overlay").hide();
       $("#bs-example-navbar-collapse-1").attr("class", "navbar-collapse collapse");
     }); 
  $(".dropdown").hover(function() {
