@@ -9,29 +9,28 @@
 //
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
-//
+//= require turbolinks
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
 //= require jquery.js
 //= require bootstrap-sprockets
-//= require jquery.turbolinks
+var ready;
+ready = function(){
+ var mq = window.matchMedia( "(min-width: 768px)" );
+//   if (mq.matches)
+//   {
+//     $(".dropdown").on("click", function() {
+//       $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+//       $(this).toggleClass('open');
 
-$(document).on('page:load',function(){
- var mq = window.matchMedia( "(min-width: 320, max-width: 568)" );
-  if (mq.matches){
-    $(".dropdown").on("click", function() {
-      $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
-      $(this).toggleClass('open');
+//     },
+//     function(){
+//       $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+//       $(this).toggleClass('open');
 
-    },
-    function(){
-      $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
-      $(this).toggleClass('open');
-
-    });
-  }
+//     });
+//   }
    $("button.navbar-toggle").click(function(){
       $("#overlay").toggle();
      });
@@ -39,17 +38,16 @@ $(document).on('page:load',function(){
       $("#overlay").css("display", "none");
       $("#bs-example-navbar-collapse-1").attr("class", "navbar-collapse collapse");
     }); 
- $(".dropdown").on("hover",           
-  function() {
-      $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
-      $(this).toggleClass('open');
-//       $('b', this).toggleClass("caret caret-up");                
-  },
-  function() {
-      $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
-      $(this).toggleClass('open');
-//       $('b', this).toggleClass("caret caret-up");                
+ $(".dropdown").hover(function() {
+   $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+
+   $(this).toggleClass('open');
+ }, function(){
+   $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+
+   $(this).toggleClass('open');
  });
+
  
   
   $("#eventsnews").click(function(){
@@ -66,4 +64,7 @@ $(document).on('page:load',function(){
 
   });
   
-});
+};
+
+$(document).ready(ready);
+$(document).on('page:load', ready);
