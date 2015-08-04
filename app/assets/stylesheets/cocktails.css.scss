@@ -298,4 +298,28 @@
       padding-left: 1em;
     }
   }
-
+/* iPhone 6 HoneyBee */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #honeybee_page1{
+      height: 39em;
+    }
+    #honeybee_page2{
+      height: 48em;
+    }
+    #hbeeP{
+      text-align: center;
+      width: 19em;
+      padding-left: 3em;
+    }
+    .footerCocktail{
+      margin-left: 0px;
+      text-align: center;
+    }
+    #lemondrop_page2 > .footerCocktail p{
+      text-align: center;
+    }
+  
+  }
