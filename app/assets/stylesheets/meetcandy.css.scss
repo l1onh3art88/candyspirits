@@ -51,3 +51,23 @@
       padding-right: 2em;
     }
   }
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #meetcandybackground{
+      border-bottom:1.45em solid rgba(255, 255, 255, 0);
+    }
+    #meetcandy{
+      height: 40em;
+    }
+    #candyblurb{
+      margin-left:28em;
+      margin-top:1em;
+    }
+    #candyblurbp{
+      font-size: 14px;
+    }
+  }

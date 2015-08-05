@@ -98,3 +98,40 @@ background-image: url(<%=asset_data_uri 'Contact-Us-Background-Img-compressor.pn
     display: none;
   }
 }
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  #contactusid{
+    height: 40em;
+    overflow-x:hidden;
+  }
+  #contactus{
+    position: initial;
+    margin-top: 20em;
+    margin-left: 1.5em;
+    padding-top: 1em;
+    height: 18em;
+  }
+  #contacth{
+    position: initial;
+  }
+  #contactp{
+    position: initial;
+  }
+  #contactsig{
+    bottom:5em;
+  }
+  #contactus form{
+    bottom: 10em;
+    left: 3em;
+    margin-right: 9em;
+  }
+  #contactbot{
+    bottom: 9em;
+    width: 12em;
+    height: 15em;
+  }
+}

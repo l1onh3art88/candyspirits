@@ -398,4 +398,49 @@
       line-height: 1;
       font-size: 18px;
     }
+    /* LemonDrop iPad 1 and 2 */
+    #lemondrop_page1{
+      height:45em;
+    }
+    #lemondrop_page1_text{
+      position: initial;
+      margin-left: 20em;
+      margin-top: 10em;
+    }
+    #lemondrop_page1 h1{
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      text-indent: -.3em;
+      position: initial;
+    }
+    #lemondrop_page1 h2{
+      margin-top: 0px;
+    }
+    #lemondrop_page1 p{
+      font-size: 22px;
+      width: 30em;
+    }
+    #lemondrop_page2{
+      height: 57em;
+    }
+    #lemondrop_page2 h1{
+      position: initial;
+      padding-top: 3em;
+      padding-left: 200px;
+      font-size: 50px;      
+    }
+    #ldropP{
+      padding-left: 200px;
+      font-size: 24px;
+      position: initial;
+      width: 36em;
+    }
+    #lemondrop_page2 h2{
+      display: inline-block;
+      position: initial;
+      padding-left: 200px;    
+    }
+    #lemondrop_page2 h3{
+      position: initial;
+    }
   }
