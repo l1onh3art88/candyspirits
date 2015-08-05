@@ -240,8 +240,63 @@ nav li {
   }
   #logo{
     margin-left: 8em;
-}
+  }
   #home{  
     background-position-x: -3em;
+  }
 }
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .navbar-header{
+    float: left;
+    height: 70%;
+    width: 30%;
+  }
+  a#logo{
+    position: relative;
+    left: 4em;
+    top: -1em;
+  }
+  #logo img{
+    width: 55%;
+  }
+  #bs-example-navbar-collapse-1{
+    margin-left: 20em;
+  }
+  #home{
+    background-position-y: -5em;
+    height: 40em;
+  }
+  #hometext{
+    max-width: 50em;
+    text-align: center;
+    margin-left: 5em;
+    margin-top:12em;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+  }
+  #hometext h1{
+    margin-bottom: 0px; 
+  }
+  .footer{
+    height: 85px;
+  }
+  #footerp1, #footerp2 {
+    font-size: 12px;
+    color: white;
+    width: 100%;
+    margin-left: 1em;
+    width: 80%;
+  }
+  #bottles{
+    width: 22%;
+    height: 600px;
+    margin-top: -37em;
+    margin-left: 56em;
+  }
 }
