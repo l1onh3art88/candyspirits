@@ -200,7 +200,8 @@
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     #honeybee_page1 h1, #honeybee_page1 h2, #honeybee_page1 h3, #honeybee_page1 p{
       padding-left:1em;
       position: initial;
@@ -302,7 +303,8 @@
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     #honeybee_page1{
       height: 39em;
     }
@@ -322,4 +324,125 @@
       text-align: center;
     }
   
+  }
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #honeybee_page1{
+      height: 43em;
+    }
+    #honeybee_page1 h1{
+      position: initial;
+      margin-left: 3em;
+      margin-top: 1em;    
+    }
+    #honeybee_page1 h2{
+      position: initial;
+      margin-left: 8em;
+    }
+    #honeybee_page1 p{
+      position: initial;
+      font-size: 22px;
+      margin-left: 6em;
+    }
+    #honeybee_page1 h3{
+      font-size: 45px;
+      position: initial;
+      margin-left: 5.5em;
+    }
+    #honeybee_page2{
+      height: 55em;
+    }
+    #honeybee_page2 h1{
+      position: initial;
+      margin-left: 3.3em;
+      padding-top: 3em;
+      font-size: 40px;
+      margin-top: 2em;
+    }
+    #hbeeP{
+      font-size: 30px;
+      position: initial;
+      margin-left:4.4em;
+      width: 30em;
+    }
+    #honeybee_page2 h2{
+      position: initial;
+      margin-left: 5em;
+      display: inline-block;
+    }
+    #honeybee_page2 h3{
+      font-size: 30px;
+      position: initial;
+      width: 7em;
+      display: inline-block;
+    }
+    .footerCocktail{
+      height: initial;
+      margin-top: 10em;
+      margin-left: 3em;
+    }
+    .footerCocktail > #footerp1 {
+      width: 80%;
+      padding-left: 0px;
+      line-height: 1;
+      display: inline-block;
+      font-size: 18px;
+    }
+    .footerCocktail > #socialmedia{
+      display: inline;
+    }
+    .footerCocktail > #footerp2{
+      text-indent: 0;
+      line-height: 1;
+      font-size: 18px;
+    }
+    /* LemonDrop iPad 1 and 2 */
+    #lemondrop_page1{
+      height:45em;
+    }
+    #lemondrop_page1_text{
+      position: initial;
+      margin-left: 20em;
+      margin-top: 10em;
+    }
+    #lemondrop_page1 h1{
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      text-indent: -.3em;
+      position: initial;
+    }
+    #lemondrop_page1 h2{
+      margin-top: 0px;
+    }
+    #lemondrop_page1 p{
+      font-size: 22px;
+      width: 30em;
+    }
+    #lemondrop_page2{
+      height: 57em;
+    }
+    #lemondrop_page2 h1{
+      position: initial;
+      padding-top: 3em;
+      padding-left: 200px;
+      font-size: 50px;      
+    }
+    #ldropP{
+      padding-left: 200px;
+      font-size: 24px;
+      position: initial;
+      width: 36em;
+    }
+    #lemondrop_page2 h2{
+      display: inline-block;
+      position: initial;
+      padding-left: 200px;    
+    }
+    #lemondrop_page2 h3{
+      position: initial;
+    }
   }
