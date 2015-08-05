@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
 
+
   # Make sure this routeset is defined last
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -16,6 +17,7 @@ Rails.application.routes.draw do
   get 'meetcandy' => 'meetcandy#index'
   get 'findus' => 'findus#index'
   get 'contactus' => 'contactus#index'
+  resources :ageverify
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
