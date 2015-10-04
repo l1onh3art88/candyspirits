@@ -1,12 +1,17 @@
 <div id = "landingpage"> 
-  <form>
-  <div class="form-group">
-    <input type="number" class="form-control" id="month" min = "01" max = "12" step = "2" placeholder= "MONTH">
-    <input type="number" class="form-control" id="day" min = "01" max = "30" step = "2" placeholder= "DAY">
-    <input type = "number" class = "form-control" id="year" min ="1900" max = "2015" step="4" placeholder = "YEAR">
-    <div class = "arrow-right">
-    </div>
-    <input type="submit" id ="sub"value="Submit">
+  <%= form_for("/home", method: "get", :controller => "ageverify",:html => {:class => "form-group"}) do %>
+  <%= select_month(Time.now)%>
+  <%= select_day(Time.now)%>
+  <%= select_year(Date.today, start_year: 1910, end_year:2015)%>
+  <%= submit_tag("Submit", id: "sub") %>
+  <% end %>
+  <div>
+  <%= image_tag ("Find-Us-Arrow-compressor.png"),:class => "arrow-right" %>
   </div>
-  </form>
+
+  <div class = "formlayout">
+    <h2> MM | DD | YYYY </h2>
+  </div>
 </div>
+
+  
